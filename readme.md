@@ -1,3 +1,3 @@
 # kokoa clone 2021
 
-htmk & css make me happy
+html & css make me happy

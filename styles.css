@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "alt-header.css" /* screen   */ @import "login.css";
+@import "friend.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "setting.css";
+@import "chat.css";
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header_title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header_text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
