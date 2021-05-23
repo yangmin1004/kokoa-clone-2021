@@ -1,10 +1,12 @@
 .login-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0px 30px;
 }
 
 .login-form input {
+  display: block;
   border: none;
   padding: 15px 0px;
   font-size: 18px;

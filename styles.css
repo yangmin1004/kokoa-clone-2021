@@ -15,6 +15,7 @@
 @import "more.css";
 @import "setting.css";
 @import "chat.css";
+@import "login.css";
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
